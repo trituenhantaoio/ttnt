@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thông tin TTNT</title>
+	<style>
+		body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      .content {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 1rem;
+        padding: 1rem;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      @media screen and (max-width: 768px) {
+        .content {
+          margin: 0;
+        }
+      }
+		body {
+			background-color: #f1f1f1;
+			font-family: Arial, sans-serif;
+			color: #333;
+		}
+
+		h1 {
+			color: #0077b6;
+			text-align: center;
+		}
+
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		li {
+			margin-bottom: 10px;
+		}
+
+		a {
+			color: #0077b6;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		.contact {
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		.contact a {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #0077b6;
+			color: #fff;
+			border-radius: 5px;
+			transition: background-color 0.2s ease-in-out;
+		}
+
+		.contact a:hover {
+			background-color: #00557a;
+		}
+	</style>
+</head>
+<body>
+	<h1>Thông tin TTNT</h1>
+	<ul>
+		<li>Tên: trituenhantao.io</li>
+		<li>Ký hiệu: TTNT</li>
+		<li>Chuỗi: <a href="https://www.bnbchain.world/vi">Binance Smart Chain</a></li>
+		<li>Địa chỉ hợp đồng: <a href="https://bscscan.com/token/0xDB7AE90f2666A6C2F9A43cF37b7633Fda5c2A882" target="_blank" rel="noreferrer noopener" style="word-break: break-all;">0xDB7AE90f2666A6C2F9A43cF37b7633Fda5c2A882</a></li>
+		<li>Phát triển và bảo trì: <a href="https://trituenhantao.io">trituenhantao.io</a></li>
+		<li>Mục đích: Phát triển <a href="https://www.facebook.com/groups/trituenhantao.io">Cộng đồng Trí tuệ nhân tạo</a></li>
+		<li>Ngày chốt danh sách trả thưởng: Ngày 10 mỗi tháng </li>
+		<li>Ngày trả thưởng: Ngày 20 mỗi tháng</li>
+		<li>Liên hệ: <a href="mailto:lien-he@trituenhantao.io">lien-he@trituenhantao.io</a></li>
+	</ul>
+	<h1>Airdrop</h1>
+	<button id="loadWeb3" class="fnBtn" title="Hãy đảm bảo không có lỗi">Bước 1: Kết nối ví MetaMask</button>
+	<button id="claimAirdrop" class="afterLoadWeb3 fnBtn" title="Nhận Airdrop" disabled="disabled">Bước 2: Nhận Airdrop</button>
+	<script src="/js/ethers-v4_0_39.min.js"></script>
+	<script src="/js/airdrop.js?v=0.0.1"></script>
+</body>
+</html>
